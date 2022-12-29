@@ -5,13 +5,13 @@ const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
   return (
     <>
-    <div className="mt-2 mx-4">
-    <nav className=" w-full bg-t-blue shadow xl:rounded-[50px] rounded-[20px] drop-shadow-2xl">
-        <div className="justify-between px-4 mx-auto lg:max-w-8xl md:items-center md:flex md:px-8">
+    <div className="flex justify-center mx-10 z-30 ">
+    <nav className="fixed mt-4 mx-4 w-full xl:max-w-[1850px] lg:max-w-[1400px] bg-white shadow-xl xl:rounded-[50px] rounded-[20px] drop-shadow-2xl">
+        <div className="justify-between px-4 mx-auto xl:max-w-[1850px] lg:max-w-[1400px] md:items-center md:flex md:px-8">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <div className="flex items-center justify-between py-2 md:py-3 md:block">
               <a href="#">
-                <h2 className="text-2xl text-white font-bold">Gantari Mengwi</h2>
+                <h2 className="text-2xl text-n-blue font-bold">Gantari Mengwi</h2>
               </a>
               <div className="md:hidden">
                 <button
@@ -21,7 +21,7 @@ const Navbar = () => {
                   {navbar ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 text-white"
+                      className="w-6 h-6 text-n-blue"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -34,7 +34,7 @@ const Navbar = () => {
                   ) : (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 text-white"
+                      className="w-6 h-6 text-n-blue"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -58,22 +58,22 @@ const Navbar = () => {
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white">
+                <li className="text-n-blue">
                   <Link href="/">
                     <div>Wisata Mengwi</div>
                   </Link>
                 </li>
-                <li className="text-white">
+                <li className="text-n-blue">
                   <Link href="/blogs">
                     <div>Komoditas Mengwi</div>
                   </Link>
                 </li>
-                <li className="text-white">
+                <li className="text-n-blue">
                   <Link href="/about">
                     <div>Tentang Mengwi</div>
                   </Link>
                 </li>
-                <li className="text-white">
+                <li className="text-n-blue">
                   <Link href="/contact">
                     <div>UMKM Mengwi</div>
                   </Link>

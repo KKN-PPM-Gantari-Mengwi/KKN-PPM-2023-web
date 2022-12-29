@@ -10,6 +10,9 @@ module.exports = {
         't-blue':'#016A6D',
         'n-blue':'#043E52'
       },
+      backgroundImage: {
+        'home-1':"url('/images/background/home1.png')",
+      }
     },
   },
   plugins: [],
