@@ -2,6 +2,10 @@
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    fontFamily: {
+      Natural: ['Natural', 'serif'],
+      poppins: ['Poppins', 'sans-serif']
+    },
     extend: {
       colors: {
         current: "currentColor",
@@ -12,6 +16,7 @@ module.exports = {
       },
       backgroundImage: {
         'home-1':"url('/images/background/home1.png')",
+        'home-2':"url('/images/background/home2.png')",
       }
     },
   },
