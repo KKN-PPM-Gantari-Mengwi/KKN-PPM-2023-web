@@ -11,10 +11,10 @@ const Navbar = () => {
         <div className="justify-between px-4 mx-auto xl:max-w-[1850px] lg:max-w-[1400px] md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-1 md:py-2 md:block">
-              <a href="#" className='flex'>
+              <Link href="/" passHref className='flex'>
                 <Image className='' src='/images/logo/Colored.png' width={30} height={30} alt='logo'/>
                 <h2 className="flex items-center text-2xl text-n-blue font-bold font-poppins">Gantari Mengwi</h2>
-              </a>
+              </Link>
               <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -61,17 +61,17 @@ const Navbar = () => {
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="text-n-blue">
-                  <Link href="/">
+                  <Link href="/wisata-mengwi">
                     <div className="font-poppins font-semibold">Wisata Mengwi</div>
                   </Link>
                 </li>
                 <li className="text-n-blue">
-                  <Link href="/blogs">
+                  <Link href="/komoditas-mengwi">
                     <div className="font-poppins font-semibold">Komoditas Mengwi</div>
                   </Link>
                 </li>
                 <li className="text-n-blue">
-                  <Link href="/about">
+                  <Link href="/tentang-mengwi">
                     <div className="font-poppins font-semibold">Tentang Mengwi</div>
                   </Link>
                 </li>

@@ -17,6 +17,7 @@ module.exports = {
       backgroundImage: {
         'home-1':"url('/images/background/home1.png')",
         'home-2':"url('/images/background/home2.png')",
+        'about-1':"url('/images/background/about1.png')",
       }
     },
   },
