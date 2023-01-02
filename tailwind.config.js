@@ -18,6 +18,9 @@ module.exports = {
         'home-1':"url('/images/background/home1.png')",
         'home-2':"url('/images/background/home2.png')",
         'about-1':"url('/images/background/about1.png')",
+        'pattern-1':"url('/images/background/pattern-top-footer.png')",
+        'footer':"url('/images/assets/footer.png')",
+        'home-card-baha':"url('/images/assets/desa-baha-1.png')",
       }
     },
   },

@@ -3,6 +3,10 @@ import Navbar from "./../components/Navbar/Navbar.jsx";
 import DefaultLayout from "./../components/DefaultLayout/DefaultLayout.jsx";
 import Image from "next/image";
 
+import HomeCard from "./../components/Card/HomeCard.jsx";
+
+import DesaBahaImage from "./../../public/images/assets/desa-baha-1.png";
+import DesaSobanganImage from "./../../public/images/assets/desa-sobangan-1.png";
 export default function Home() {
   return (
     <DefaultLayout title="Gantari Mengwi 2023">
@@ -36,25 +40,47 @@ export default function Home() {
             Mengenal Mengwi
           </div>
           <div className="inline-flex">
-          <div className="pt-16 pl-36">
-            <Image
-              src="/images/assets/peta-bali.png"
-              width={600}
-              height={600}
-              alt="peta-bali"
-            />
-          </div>
-          <div className="max-w-[648px] pt-24 pl-12">
-            <p className="text-white text-lg font-poppins">
-              Kecamatan Mengwi adalah sebuah kecamatan di Kabupaten Badung,
-              Bali, Indonesia.[4] Kota Mangupura, ibukota kabupaten Badung
-              berada di kecamatan ini, yang terdiri dari beberapa desa dan
-              kelurahan di kecamatan Mengwi.
-            </p>
-            <div className="flex max-w-[275px] h-[45px] mt-40 bg-gradient-to-r from-s-orange to-t-orange items-center justify-center rounded-[30px] font-poppins text-xl text-white font-semibold">
-              Selengkapnya
+            <div className="pt-16 pl-36">
+              <Image
+                src="/images/assets/peta-bali.png"
+                width={600}
+                height={600}
+                alt="peta-bali"
+              />
+            </div>
+            <div className="max-w-[648px] pt-24 pl-12">
+              <p className="text-white text-lg font-poppins">
+                Kecamatan Mengwi adalah sebuah kecamatan di Kabupaten Badung,
+                Bali, Indonesia.[4] Kota Mangupura, ibukota kabupaten Badung
+                berada di kecamatan ini, yang terdiri dari beberapa desa dan
+                kelurahan di kecamatan Mengwi.
+              </p>
+              <div className="flex max-w-[275px] h-[45px] mt-40 bg-gradient-to-r from-s-orange to-t-orange items-center justify-center rounded-[30px] font-poppins text-xl text-white font-semibold">
+                Selengkapnya
+              </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="flex w-full h-scren  bg-gradient-to-b from-[#DF693B] to-[#F99A57]">
+        <div className="h-screen w-full bg-pattern-1">
+          {/* headline */}
+          <div className="flex mt-32">
+            <div className="mx-auto">
+              <h1 className="flex justify-center md:text-6xl text-5xl text-white font-Natural">
+                Desa KKN
+              </h1>
+              <h1 className="flex justify-center md:text-5xl text-4xl text-white font-poppins font-bold">
+                Gantari-Mengwi
+              </h1>
+            </div>
+          </div>
+          {/* card container */}
+          <div className="flex justify-center mt-8">
+            <div className="md:flex block gap-16">
+              <HomeCard image={DesaBahaImage} desa="Baha"/>
+              <HomeCard image={DesaSobanganImage} desa="Sobangan"/>
+            </div>
           </div>
         </div>
       </section>
