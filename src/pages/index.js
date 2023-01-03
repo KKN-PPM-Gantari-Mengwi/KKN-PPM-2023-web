@@ -62,7 +62,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="flex w-full h-scren  bg-gradient-to-b from-[#DF693B] to-[#F99A57]">
+      <section className="flex w-full lg:h-screen h-[1600px]  bg-gradient-to-b from-[#DF693B] to-[#F99A57]">
         <div className="h-screen w-full bg-pattern-1">
           {/* headline */}
           <div className="flex mt-32">
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
           {/* card container */}
           <div className="flex justify-center mt-8">
-            <div className="md:flex block gap-16">
+            <div className="lg:flex block gap-16">
               <HomeCard image={DesaBahaImage} desa="Baha"/>
               <HomeCard image={DesaSobanganImage} desa="Sobangan"/>
             </div>
