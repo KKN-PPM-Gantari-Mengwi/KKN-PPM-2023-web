@@ -21,6 +21,7 @@ module.exports = {
         'pattern-1':"url('/images/background/pattern-top-footer.png')",
         'footer':"url('/images/assets/footer.png')",
         'home-card-baha':"url('/images/assets/desa-baha-1.png')",
+        'wisata-1':"url('/images/background/bg-wisata-1.png')",
       }
     },
   },

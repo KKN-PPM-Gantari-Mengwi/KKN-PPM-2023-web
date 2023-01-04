@@ -6,8 +6,8 @@ const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
   return (
     <>
-    <div className="flex justify-center mx-10 z-[9999999px] ">
-    <nav className="fixed mt-4 mx-4 w-full xl:max-w-[1850px] lg:max-w-[1400px] bg-white shadow-xl xl:rounded-[50px] rounded-[20px] drop-shadow-2xl">
+    <div className="flex justify-center mx-10  ">
+    <nav className="fixed z-[9999999] mt-4 mx-4 w-full xl:max-w-[1850px] lg:max-w-[1400px] bg-white shadow-xl xl:rounded-[50px] rounded-[20px] drop-shadow-2xl">
         <div className="justify-between px-4 mx-auto xl:max-w-[1850px] lg:max-w-[1400px] md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-1 md:py-2 md:block">

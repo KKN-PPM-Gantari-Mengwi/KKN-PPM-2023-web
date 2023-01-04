@@ -21,6 +21,10 @@
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #025761 100%);
 }
 
+.wisataCover1{
+  background: rgba(0, 0, 0, 0.47);
+}
+
 .textGradOrange {
   background: linear-gradient(180deg, #e06a3c 0%, #ffa45d 100%);
   -webkit-background-clip: text;
