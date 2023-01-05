@@ -25,7 +25,7 @@ const TourismCard = (props) => {
           </h3>
         </div>
       </div>
-      <p className="mt-4 ml-4">
+      <p className="mt-4 mx-4">
         {props.desc}
       </p>
     </div>
