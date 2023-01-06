@@ -76,7 +76,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="text-n-blue">
-                  <Link href="/contact">
+                  <Link href="/umkm-mengwi">
                     <div className="font-poppins font-semibold">UMKM Mengwi</div>
                   </Link>
                 </li>

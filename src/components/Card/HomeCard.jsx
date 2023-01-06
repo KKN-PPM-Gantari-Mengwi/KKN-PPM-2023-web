@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const HomeCard = (props) => {
   return (
-    <div className="lg:w-[580px] md:w-[500px] sm:w-[450px] w-[300px] md:h-[646px] h-[550px] bg-gradient-to-b from-[#043E52] to-[#016A6D] rounded-[45px]">
+    <div className="lg:w-[580px] md:w-[500px] sm:w-[450px] w-[300px] md:h-[646px] h-[450px] bg-gradient-to-b from-[#043E52] to-[#016A6D] rounded-[45px]">
       {/* image card */}
-      <div className="homeCardCover max-w-[519px] h-[372px] mx-auto block">
+      <div className="homeCardCover max-w-[519px] md:h-[372px] h-[250px] mx-auto block">
         <Image
           // src="/images/assets/desa-baha-1.png"
           src={props.image}

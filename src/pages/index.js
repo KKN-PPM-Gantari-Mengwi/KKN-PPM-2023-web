@@ -35,37 +35,38 @@ export default function Home() {
         </div>
       </section>
       <section className="flex bg-home-2 w-full h-screen">
-        <div className="w-[1537px] h-[639px]  mx-auto my-auto mt-48 bg-gradient-to-r from-n-blue to-t-blue rounded-[30px]">
+        <div className="w-[1537px] lg:h-[639px] h-fit  mx-auto my-auto lg:mt-48 mt-20 bg-gradient-to-r from-n-blue to-t-blue rounded-[30px]">
           <div className="flex justify-center text-6xl text-white font-Natural pt-12 ">
             Mengenal Mengwi
           </div>
-          <div className="inline-flex">
-            <div className="pt-16 pl-36">
+          <div className="lg:inline-flex block">
+            <div className="pt-16 lg:pl-36 pl-10 max-w-[600px] lg:h-[600px] block">
               <Image
                 src="/images/assets/peta-bali.png"
                 width={600}
                 height={600}
+                // layout={"responsive"}
                 alt="peta-bali"
               />
             </div>
-            <div className="max-w-[648px] pt-24 pl-12">
+            <div className="block  max-w-[648px] lg:pt-24 pt-2 pl-12">
               <p className="text-white text-lg font-poppins">
                 Kecamatan Mengwi adalah sebuah kecamatan di Kabupaten Badung,
                 Bali, Indonesia.[4] Kota Mangupura, ibukota kabupaten Badung
                 berada di kecamatan ini, yang terdiri dari beberapa desa dan
                 kelurahan di kecamatan Mengwi.
               </p>
-              <div className="flex max-w-[275px] h-[45px] mt-40 bg-gradient-to-r from-s-orange to-t-orange items-center justify-center rounded-[30px] font-poppins text-xl text-white font-semibold">
+              <div className="flex max-w-[275px] h-[45px] lg:mt-40 mt-16 mb-4 bg-gradient-to-r from-s-orange to-t-orange items-center justify-center rounded-[30px] font-poppins text-xl text-white font-semibold">
                 Selengkapnya
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="flex w-full lg:h-screen h-[1600px]  bg-gradient-to-b from-[#DF693B] to-[#F99A57]">
-        <div className="h-screen w-full bg-pattern-1">
+      <section className="block w-full lg:h-screen h-[1600px]  bg-gradient-to-b from-[#DF693B] to-[#F99A57]">
+        <div className="blockh-screen w-full bg-pattern-1">
           {/* headline */}
-          <div className="flex mt-32">
+          <div className="flex lg:pt-32 md:pt-48 sm:pt-80 pt-[270px]">
             <div className="mx-auto">
               <h1 className="flex justify-center md:text-6xl text-5xl text-white font-Natural">
                 Desa KKN
