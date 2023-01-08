@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "./../components/Navbar/Navbar.jsx";
+import Link from 'next/link';
 import DefaultLayout from "./../components/DefaultLayout/DefaultLayout.jsx";
 import Image from "next/image";
 
@@ -48,12 +49,16 @@ export default function Home() {
       </section>
       <section className="flex bg-home-2 w-full h-screen">
         <div className="2xl:w-[1537px] xl:w-[1300px] 2xl:h-[639px]  xl:h-[600px] sm:-[700px]  mx-auto my-auto 2xl:mt-48 mt-20 bg-gradient-to-r from-n-blue to-t-blue rounded-[30px]">
+        
           <div
             className="flex justify-center lg:text-7xl text-6xl text-white font-Natural pt-12 "
             data-aos="fade-down"
           >
+            
             Mengenal Mengwi
+            
           </div>
+          
           <div className="lg:inline-flex block">
             <div
               data-aos="fade right"
@@ -74,9 +79,11 @@ export default function Home() {
                 berada di kecamatan ini, yang terdiri dari beberapa desa dan
                 kelurahan di kecamatan Mengwi.
               </p>
+              <Link href="/tentang-mengwi">
               <div data-aos="fade-up" className="flex max-w-[275px] h-[45px] lg:mt-40 mt-16 mb-4 bg-gradient-to-r from-s-orange to-t-orange items-center justify-center rounded-[30px] font-poppins text-xl text-white font-semibold">
                 Selengkapnya
               </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -97,8 +104,8 @@ export default function Home() {
           {/* card container */}
           <div className="flex justify-center mt-8">
             <div className="lg:flex block gap-16">
-              <HomeCard image={DesaBahaImage} desa="Baha" anime="fade-right" />
-              <HomeCard image={DesaSobanganImage} desa="Sobangan" anime="fade-left" />
+              <HomeCard image={DesaBahaImage} desa="Baha" anime="fade-right" link="/desa-baha" />
+              <HomeCard image={DesaSobanganImage} desa="Sobangan" anime="fade-left" link="/desa-sobangan" />
             </div>
           </div>
         </div>

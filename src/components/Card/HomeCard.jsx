@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const HomeCard = (props) => {
   return (
@@ -29,12 +30,14 @@ const HomeCard = (props) => {
           </h3>
         </div>
       </div>
+      <Link href={props.link}>
       <div
         className="flex mx-auto max-w-[275px] h-[45px] mt-8 bg-gradient-to-r from-s-orange to-t-orange items-center justify-center rounded-[30px] font-poppins text-xl text-white font-semibold"
         data-aos="fade-up"
       >
         Selengkapnya
       </div>
+      </Link>
     </div>
   );
 };

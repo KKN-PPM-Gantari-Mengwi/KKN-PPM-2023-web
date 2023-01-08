@@ -62,22 +62,22 @@ const Navbar = () => {
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="text-n-blue">
                   <Link href="/wisata-mengwi">
-                    <div className="font-poppins font-semibold">Wisata Mengwi</div>
+                    <div className="font-poppins font-semibold ">Wisata Mengwi</div>
                   </Link>
                 </li>
                 <li className="text-n-blue">
                   <Link href="/komoditas-mengwi">
-                    <div className="font-poppins font-semibold">Komoditas Mengwi</div>
+                    <div className="font-poppins font-semibold ">Komoditas Mengwi</div>
                   </Link>
                 </li>
                 <li className="text-n-blue">
                   <Link href="/tentang-mengwi">
-                    <div className="font-poppins font-semibold">Tentang Mengwi</div>
+                    <div className="font-poppins font-semibold ">Tentang Mengwi</div>
                   </Link>
                 </li>
                 <li className="text-n-blue">
                   <Link href="/umkm-mengwi">
-                    <div className="font-poppins font-semibold">UMKM Mengwi</div>
+                    <div className="font-poppins font-semibold ">UMKM Mengwi</div>
                   </Link>
                 </li>
               </ul>
