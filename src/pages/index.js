@@ -18,13 +18,13 @@ export default function Home() {
             <div className="block z-0">
               <h1
                 className="flex justify-center items-center text-t-orange my-auto -translate-x-5  md:text-9xl text-6xl font-Natural z-0"
-                data-aos="fade-up"
+                data-aos="fade-left"
               >
                 Pesona
               </h1>
               <h1
                 className="flex justify-center items-center text-white my-auto translate-x-5 -translate-y-3 md:text-9xl text-6xl font-Natural"
-                data-aos="fade-up"
+                data-aos="fade-right"
               >
                 Mengwi
               </h1>

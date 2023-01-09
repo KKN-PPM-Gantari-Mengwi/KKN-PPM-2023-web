@@ -23,6 +23,7 @@ module.exports = {
         'home-card-baha':"url('/images/assets/desa-baha-1.png')",
         'wisata-1':"url('/images/background/bg-wisata-1.png')",
         'umkm-1':"url('/images/background/umkm1.png')",
+        'sobangan-1':"url('/images/background/sobangan.png')"
       }
     },
   },

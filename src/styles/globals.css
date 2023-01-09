@@ -21,7 +21,7 @@
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #025761 100%);
 }
 
-.wisataCover1{
+.wisataCover1 {
   background: rgba(0, 0, 0, 0.47);
 }
 
@@ -31,4 +31,14 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   /* text-fill-color: transparent; */
+}
+
+.sobanganCover {
+  background: linear-gradient(
+    270deg,
+    #034758 0%,
+    rgba(2, 90, 99, 0.9) 25.52%,
+    rgba(1, 104, 108, 0.8) 38.02%,
+    rgba(8, 27, 28, 0.39) 100%
+  );
 }
