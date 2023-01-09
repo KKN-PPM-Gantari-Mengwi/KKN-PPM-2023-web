@@ -20,6 +20,16 @@ const Desa_Sobangan = () => {
           </div>
         </div>
       </section>
+
+      <section className="bg-komoditas-1 w-full h-[1000px]">
+        <div className="komoditasCover w-full h-[1000px]">
+        <div className=" my-auto ml-20 pt-[400px]">
+            <h1 className=" text-8xl  font-Natural text-white" data-aos="fade-right">Komoditas</h1>
+            <h1 className=" text-8xl  font-Natural text-white" data-aos="fade-right">Sobangan</h1>
+            
+          </div>
+        </div>
+      </section>
     </DefaultLayout>
   );
 };

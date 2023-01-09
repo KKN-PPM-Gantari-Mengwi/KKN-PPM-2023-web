@@ -42,3 +42,7 @@
     rgba(8, 27, 28, 0.39) 100%
   );
 }
+
+.komoditasCover {
+  background: rgba(0, 0, 0, 0.82);
+}
