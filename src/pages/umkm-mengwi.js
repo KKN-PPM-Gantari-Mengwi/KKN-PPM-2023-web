@@ -9,10 +9,10 @@ const Wisata_Mengwi = () => {
       <section className="bg-umkm-1 w-full h-[735px]">
         <div className="wisataCover1 w-full h-full">
           <div className="block z-0 pt-60">
-            <h1 className="flex justify-center items-center text-t-orange my-auto translate-y-6 md:text-8xl text-6xl font-Natural z-0">
+            <h1 data-aos="fade-right" className="flex justify-center items-center text-t-orange my-auto translate-y-6 md:text-8xl text-6xl font-Natural z-0">
               UMKM
             </h1>
-            <h1 className="flex justify-center items-center text-white my-auto md:text-8xl text-6xl font-Natural">
+            <h1 data-aos="fade-left" className="flex justify-center items-center text-white my-auto md:text-8xl text-6xl font-Natural">
               Mengwi
             </h1>
           </div>
@@ -23,9 +23,9 @@ const Wisata_Mengwi = () => {
           <div className=" max-w-[1509px] md:h-[1100px] h-[1300px] bg-[#FAFAFA] mx-auto rounded-[30px] -translate-y-60">
             {/* filter items */}
             <div className="flex justify-center pt-6 text-xl font-poppins font-semibold ">
-              <button className="px-4 hover:text-s-orange">Semua</button>
-              <button className="px-4 hover:text-s-orange">Baha</button>
-              <button className="px-4 hover:text-s-orange">Sobangan</button>
+              <button data-aos="fade-up" className="px-4 hover:text-s-orange">Semua</button>
+              <button data-aos="fade-up" className="px-4 hover:text-s-orange">Baha</button>
+              <button data-aos="fade-up" className="px-4 hover:text-s-orange">Sobangan</button>
             </div>
             {/* card items */}
             {/* <div className="block justify-center"> */}

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const TourismCard = (props) => {
   return (
-    <div className="w-[362.44px] h-[450px] bg-white shadow-lg rounded-[15px] mx-auto">
+    <div data-aos="fade-up" className="w-[362.44px] h-[450px] bg-white shadow-lg rounded-[15px] mx-auto">
         {/* h awal = 411px */}
         <Image
           // src="/images/assets/desa-baha-1.png"
