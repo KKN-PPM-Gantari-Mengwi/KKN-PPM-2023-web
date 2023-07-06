@@ -10,10 +10,10 @@ const Navbar = () => {
     <nav className="fixed z-[9999999] mt-4 mx-4 w-full xl:max-w-[1850px] lg:max-w-[1400px] bg-white shadow-xl xl:rounded-[50px] rounded-[20px] drop-shadow-2xl">
         <div className="justify-between px-4 mx-auto xl:max-w-[1850px] lg:max-w-[1400px] md:items-center md:flex md:px-8">
           <div>
-            <div className="flex items-center justify-between py-1 md:py-2 md:block">
+            <div className="flex items-center justify-between md:block">
               <Link href="/" passHref className='flex'>
                 <Image className='' src='/images/logo/Colored.png' width={30} height={30} alt='logo'/>
-                <h2 className="flex items-center text-2xl text-n-blue font-bold font-poppins">Gantari Mengwi</h2>
+                <h2 className="flex items-center text-xl text-n-blue font-bold font-poppins">Gantari Mengwi</h2>
               </Link>
               <div className="md:hidden">
                 <button
