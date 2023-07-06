@@ -71,8 +71,8 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="text-n-blue">
-                  <Link href="/tentang-mengwi">
-                    <div className="font-poppins font-semibold ">Tentang Mengwi</div>
+                  <Link href="/pemetaan-mengwi">
+                    <div className="font-poppins font-semibold ">Pemetaan Mengwi</div>
                   </Link>
                 </li>
                 <li className="text-n-blue">

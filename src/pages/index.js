@@ -79,7 +79,7 @@ export default function Home() {
                 berada di kecamatan ini, yang terdiri dari beberapa desa dan
                 kelurahan di kecamatan Mengwi.
               </p>
-              <Link href="/tentang-mengwi">
+              <Link href="/pemetaan-mengwi">
               <div data-aos="fade-up" className="flex max-w-[275px] h-[45px] lg:mt-40 mt-16 mb-4 bg-gradient-to-r from-s-orange to-t-orange items-center justify-center rounded-[30px] font-poppins text-xl text-white font-semibold">
                 Selengkapnya
               </div>

@@ -1,7 +1,7 @@
 import React from "react";
-import DefaultLayout from "../components/DefaultLayout/DefaultLayout";
-import TourismCard from "../components/Card/TourismCard.jsx";
-import Dummy from "./../../public/images/assets/dummy-tour-1.png"
+import DefaultLayout from "../../components/DefaultLayout/DefaultLayout";
+import TourismCard from "../../components/Card/TourismCard.jsx";
+import Dummy from "./../../../public/images/assets/dummy-tour-1.png"
 
 const Wisata_Mengwi = () => {
   return (

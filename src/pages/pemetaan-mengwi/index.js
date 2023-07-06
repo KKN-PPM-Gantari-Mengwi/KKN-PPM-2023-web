@@ -1,9 +1,9 @@
 import React from 'react'
-import DefaultLayout from "./../components/DefaultLayout/DefaultLayout.jsx";
+import DefaultLayout from "../../components/DefaultLayout/DefaultLayout.jsx";
 import Image from "next/image";
 import Link from "next/link";
 
-const Tentang_Mengwi = () => {
+const Pemetaan_Mengwi = () => {
   return (
     <DefaultLayout title="Gantari Mengwi 2023">
       <section className="bg-about-1 h-screen w-full">
@@ -12,7 +12,7 @@ const Tentang_Mengwi = () => {
           <div className="md:pt-[430px] pt-[250px]">
             <div className="block z-0">
               <h1 data-aos="fade-right" className="flex justify-center items-center text-t-orange my-auto -translate-x-5  md:text-8xl text-6xl font-Natural z-0">
-                Mengenal
+                Pemetaan
               </h1>
               <h1 data-aos="fade-left" className="flex justify-center items-center text-white my-auto translate-x-5 -translate-y-3 md:text-8xl text-6xl font-Natural">
                 Mengwi
@@ -38,7 +38,7 @@ const Tentang_Mengwi = () => {
             data-aos="fade-down"
           >
             
-            Mengenal Mengwi
+            Pemetaan Mengwi
             
           </div>
           
@@ -75,4 +75,4 @@ const Tentang_Mengwi = () => {
   )
 }
 
-export default Tentang_Mengwi
+export default Pemetaan_Mengwi
