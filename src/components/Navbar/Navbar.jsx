@@ -139,7 +139,7 @@ const Navbar = () => {
                             <Menu.Item>
                               {({ active }) => (
                                 <Link
-                                  href="#"
+                                  href="/edukasi-rabies"
                                   className={classNames(
                                     active
                                       ? "bg-gray-100 text-gray-900"
