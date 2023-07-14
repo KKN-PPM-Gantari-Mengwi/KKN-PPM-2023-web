@@ -42,6 +42,7 @@ const Pemetaan_Mengwi = () => {
           </div>
         </div>
       </section>
+      {/* section pemetaan desa baha */}
       <section className="block bg-home-2 w-full h-fit lg:h-screen mb-10 lg:mb-0">
         {/* heading */}
         <div className="flex xl:pt-20 lg:pt-32 md:pt-48 sm:pt-80 pt-[100px]">
@@ -63,6 +64,7 @@ const Pemetaan_Mengwi = () => {
         {/* content */}
         <div className="block lg:flex justify-center">
           <div className="block w-full lg:w-[1553px] px-4">
+            {/* card */}
             <div
               className="w-full h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8 "
               data-aos="fade-up"
@@ -170,6 +172,140 @@ const Pemetaan_Mengwi = () => {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      {/* section pemetaan desa sobangan */}
+      <section className="block w-full lg:h-screen h-[1600px]  bg-gradient-to-b from-[#DF693B] to-[#F99A57]">
+        <div className="block w-full h-screen bg-pattern-1">
+          {/* heading */}
+        <div className="flex xl:pt-20 lg:pt-32 md:pt-48 sm:pt-80 pt-[100px]">
+          <div className="mx-auto">
+            <h1
+              data-aos="fade-up"
+              className="flex justify-center md:text-8xl text-6xl text-w-yellow font-Natural"
+            >
+              Pemetaan
+            </h1>
+            <h1
+              data-aos="fade-up"
+              className="flex justify-center md:text-5xl text-4xl text-white font-poppins font-bold"
+            >
+              Desa Sobangan
+            </h1>
+          </div>
+        </div>
+        {/* content */}
+        <div className="block lg:flex justify-center">
+          <div className="block w-full lg:w-[1553px] px-4">
+            {/* Card */}
+            <div
+              className="w-full h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8 "
+              data-aos="fade-up"
+            >
+              <div className="pemetaan-card-bg-layer w-full h-full">
+                <div className="flex justify-center h-full mx-20 items-center">
+                  <div className="block text-center" data-aos="fade-right">
+                    <h2 className="text-5xl lg:text-6xl text-white font-Natural">
+                      Pemetaan
+                    </h2>
+                    <h2 className="text-3xl lg:text-4xl font-poppins font-bold text-gradient bg-gradient-to-b from-s-orange to-t-orange bg-clip-text text-transparent">
+                      Wisata
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="block lg:flex gap-8">
+              <div
+                className="w-full lg:w-1/2 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
+                data-aos="fade-up"
+              >
+                <div className="pemetaan-card-bg-layer w-full h-full">
+                  <div className="flex justify-center h-full mx-20 items-center">
+                    <div className="block text-center" data-aos="fade-right">
+                      <h2 className="text-5xl lg:text-6xl text-white font-Natural">
+                        Pemetaan
+                      </h2>
+                      <h2 className="text-3xl lg:text-4xl font-poppins font-bold text-gradient bg-gradient-to-b from-s-orange to-t-orange bg-clip-text text-transparent">
+                        Mitigasi Bencana
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="w-full lg:w-1/2 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
+                data-aos="fade-up"
+              >
+                <div className="pemetaan-card-bg-layer w-full h-full">
+                  <div className="flex justify-center h-full mx-20 items-center">
+                    <div className="block text-center" data-aos="fade-right">
+                      <h2 className="text-5xl lg:text-6xl text-white font-Natural">
+                        Pemetaan
+                      </h2>
+                      <h2 className="text-3xl lg:text-4xl font-poppins font-bold text-gradient bg-gradient-to-b from-s-orange to-t-orange bg-clip-text text-transparent">
+                        UMKM
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="block lg:flex gap-8">
+              <div
+                className="w-full lg:w-1/3 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
+                data-aos="fade-up"
+              >
+                <div className="pemetaan-card-bg-layer w-full h-full">
+                  <div className="flex justify-center h-full mx-20 items-center">
+                    <div className="block text-center" data-aos="fade-right">
+                      <h2 className="text-5xl lg:text-6xl text-white font-Natural">
+                        Pemetaan
+                      </h2>
+                      <h2 className="text-3xl lg:text-4xl font-poppins font-bold text-gradient bg-gradient-to-b from-s-orange to-t-orange bg-clip-text text-transparent">
+                        Pertanian
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="w-full lg:w-1/3 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
+                data-aos="fade-up"
+              >
+                <div className="pemetaan-card-bg-layer w-full h-full">
+                  <div className="flex justify-center h-full mx-20 items-center">
+                    <div className="block text-center" data-aos="fade-right">
+                      <h2 className="text-5xl lg:text-6xl text-white font-Natural">
+                        Pemetaan
+                      </h2>
+                      <h2 className="text-3xl lg:text-4xl font-poppins font-bold text-gradient bg-gradient-to-b from-s-orange to-t-orange bg-clip-text text-transparent">
+                        Perkebunan
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="w-full lg:w-1/3 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
+                data-aos="fade-up"
+              >
+                <div className="pemetaan-card-bg-layer w-full h-full">
+                  <div className="flex justify-center h-full mx-20 items-center">
+                    <div className="block text-center" data-aos="fade-right">
+                      <h2 className="text-5xl lg:text-6xl text-white font-Natural">
+                        Pemetaan
+                      </h2>
+                      <h2 className="text-3xl lg:text-4xl font-poppins font-bold text-gradient bg-gradient-to-b from-s-orange to-t-orange bg-clip-text text-transparent">
+                        Peternakan
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         </div>
       </section>
     </DefaultLayout>
