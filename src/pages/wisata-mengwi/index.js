@@ -199,7 +199,7 @@ function Wisata_Mengwi() {
             <div className="mx-auto">
               <h1
                 data-aos="fade-up"
-                className="flex justify-center md:text-8xl text-6xl text-white font-Natural"
+                className="flex justify-center md:text-8xl text-6xl text-w-yellow font-Natural"
               >
                 Wisata
               </h1>
