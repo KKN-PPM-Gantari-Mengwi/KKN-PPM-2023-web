@@ -66,3 +66,8 @@
     rgba(2, 90, 99, 0.94) 100%
   );
 }
+
+.pemetaan-card-bg-layer {
+  border-radius: 30px;
+  background: rgba(4, 62, 82, 0.64);
+}
