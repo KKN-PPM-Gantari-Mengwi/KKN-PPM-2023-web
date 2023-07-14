@@ -7,7 +7,6 @@ const Pemetaan_Mengwi = () => {
   return (
     <DefaultLayout title="Gantari Mengwi 2023">
       <section className="bg-home-1 h-screen w-full">
-        {/* <Navbar/> */}
         <div className="homeCover1  w-full h-full">
           <div className="md:pt-[430px] pt-[250px]">
             <div className="block z-0">
@@ -65,11 +64,12 @@ const Pemetaan_Mengwi = () => {
         <div className="block lg:flex justify-center">
           <div className="block w-full lg:w-[1553px] px-4">
             {/* card */}
+            <Link href="#">
             <div
               className="w-full h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8 "
               data-aos="fade-up"
-            >
-              <div className="pemetaan-card-bg-layer w-full h-full">
+              >
+              <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
                 <div className="flex justify-center h-full mx-20 items-center">
                   <div className="block text-center" data-aos="fade-right">
                     <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -82,12 +82,14 @@ const Pemetaan_Mengwi = () => {
                 </div>
               </div>
             </div>
+              </Link>
             <div className="block lg:flex gap-8">
               <div
                 className="w-full lg:w-1/2 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
                 data-aos="fade-up"
               >
-                <div className="pemetaan-card-bg-layer w-full h-full">
+                <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
+                  <Link href="#">
                   <div className="flex justify-center h-full mx-20 items-center">
                     <div className="block text-center" data-aos="fade-right">
                       <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -98,13 +100,16 @@ const Pemetaan_Mengwi = () => {
                       </h2>
                     </div>
                   </div>
+                  </Link>
                 </div>
               </div>
               <div
                 className="w-full lg:w-1/2 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
                 data-aos="fade-up"
               >
-                <div className="pemetaan-card-bg-layer w-full h-full">
+                <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
+                  <Link href="#">
+                  
                   <div className="flex justify-center h-full mx-20 items-center">
                     <div className="block text-center" data-aos="fade-right">
                       <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -115,6 +120,7 @@ const Pemetaan_Mengwi = () => {
                       </h2>
                     </div>
                   </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -123,7 +129,9 @@ const Pemetaan_Mengwi = () => {
                 className="w-full lg:w-1/3 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
                 data-aos="fade-up"
               >
-                <div className="pemetaan-card-bg-layer w-full h-full">
+                <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
+                  <Link href="#">
+                  
                   <div className="flex justify-center h-full mx-20 items-center">
                     <div className="block text-center" data-aos="fade-right">
                       <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -134,13 +142,16 @@ const Pemetaan_Mengwi = () => {
                       </h2>
                     </div>
                   </div>
+                  </Link>
                 </div>
               </div>
               <div
                 className="w-full lg:w-1/3 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
                 data-aos="fade-up"
               >
-                <div className="pemetaan-card-bg-layer w-full h-full">
+                <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
+                  <Link href="#">
+                  
                   <div className="flex justify-center h-full mx-20 items-center">
                     <div className="block text-center" data-aos="fade-right">
                       <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -151,13 +162,15 @@ const Pemetaan_Mengwi = () => {
                       </h2>
                     </div>
                   </div>
+                  </Link>
                 </div>
               </div>
               <div
                 className="w-full lg:w-1/3 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
                 data-aos="fade-up"
               >
-                <div className="pemetaan-card-bg-layer w-full h-full">
+                <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
+                  <Link href="#">
                   <div className="flex justify-center h-full mx-20 items-center">
                     <div className="block text-center" data-aos="fade-right">
                       <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -168,6 +181,7 @@ const Pemetaan_Mengwi = () => {
                       </h2>
                     </div>
                   </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -197,12 +211,13 @@ const Pemetaan_Mengwi = () => {
         {/* content */}
         <div className="block lg:flex justify-center">
           <div className="block w-full lg:w-[1553px] px-4">
-            {/* Card */}
+            {/* card */}
+            <Link href="#">
             <div
               className="w-full h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8 "
               data-aos="fade-up"
-            >
-              <div className="pemetaan-card-bg-layer w-full h-full">
+              >
+              <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
                 <div className="flex justify-center h-full mx-20 items-center">
                   <div className="block text-center" data-aos="fade-right">
                     <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -215,12 +230,14 @@ const Pemetaan_Mengwi = () => {
                 </div>
               </div>
             </div>
+              </Link>
             <div className="block lg:flex gap-8">
               <div
                 className="w-full lg:w-1/2 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
                 data-aos="fade-up"
               >
-                <div className="pemetaan-card-bg-layer w-full h-full">
+                <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
+                  <Link href="#">
                   <div className="flex justify-center h-full mx-20 items-center">
                     <div className="block text-center" data-aos="fade-right">
                       <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -231,13 +248,16 @@ const Pemetaan_Mengwi = () => {
                       </h2>
                     </div>
                   </div>
+                  </Link>
                 </div>
               </div>
               <div
                 className="w-full lg:w-1/2 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
                 data-aos="fade-up"
               >
-                <div className="pemetaan-card-bg-layer w-full h-full">
+                <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
+                  <Link href="#">
+                  
                   <div className="flex justify-center h-full mx-20 items-center">
                     <div className="block text-center" data-aos="fade-right">
                       <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -248,6 +268,7 @@ const Pemetaan_Mengwi = () => {
                       </h2>
                     </div>
                   </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -256,7 +277,9 @@ const Pemetaan_Mengwi = () => {
                 className="w-full lg:w-1/3 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
                 data-aos="fade-up"
               >
-                <div className="pemetaan-card-bg-layer w-full h-full">
+                <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
+                  <Link href="#">
+                  
                   <div className="flex justify-center h-full mx-20 items-center">
                     <div className="block text-center" data-aos="fade-right">
                       <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -267,13 +290,16 @@ const Pemetaan_Mengwi = () => {
                       </h2>
                     </div>
                   </div>
+                  </Link>
                 </div>
               </div>
               <div
                 className="w-full lg:w-1/3 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
                 data-aos="fade-up"
               >
-                <div className="pemetaan-card-bg-layer w-full h-full">
+                <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
+                  <Link href="#">
+                  
                   <div className="flex justify-center h-full mx-20 items-center">
                     <div className="block text-center" data-aos="fade-right">
                       <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -284,13 +310,15 @@ const Pemetaan_Mengwi = () => {
                       </h2>
                     </div>
                   </div>
+                  </Link>
                 </div>
               </div>
               <div
                 className="w-full lg:w-1/3 h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8"
                 data-aos="fade-up"
               >
-                <div className="pemetaan-card-bg-layer w-full h-full">
+                <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
+                  <Link href="#">
                   <div className="flex justify-center h-full mx-20 items-center">
                     <div className="block text-center" data-aos="fade-right">
                       <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -301,6 +329,7 @@ const Pemetaan_Mengwi = () => {
                       </h2>
                     </div>
                   </div>
+                  </Link>
                 </div>
               </div>
             </div>

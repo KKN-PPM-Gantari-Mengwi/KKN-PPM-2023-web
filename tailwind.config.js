@@ -13,7 +13,9 @@ module.exports = {
         't-orange': '#FFA45D',
         'w-yellow': '#FFF4CF',
         't-blue':'#016A6D',
-        'n-blue':'#043E52'
+        'n-blue':'#043E52',
+        'l-pink':'#FBE1DB',
+        'h-pink': '#CB5260',
       },
       backgroundImage: {
         'home-1':"url('/images/background/home1.png')",
