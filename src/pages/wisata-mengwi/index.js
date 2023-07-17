@@ -219,8 +219,8 @@ function Wisata_Mengwi() {
                 <div className="wisata-card-baha w-full h-full">
                   <div className="flex justify-between h-full mx-20 items-center">
                     <div data-aos="fade-right">
-                      <Link href="#">
-                        <div className="w-full bg-gradient-to-r from-s-orange to-t-orange rounded-[30px] px-6 py-2 text-white font-poppins text-xl">
+                      <Link href="/desa-baha">
+                        <div className="w-full transition-all bg-gradient-to-r from-s-orange to-t-orange  hover:from-n-blue hover:to-t-blue rounded-[30px] px-6 py-2 text-white font-poppins text-xl">
                           Jelajahi Sekarang
                         </div>
                       </Link>
@@ -245,8 +245,8 @@ function Wisata_Mengwi() {
                       </h2>
                     </div>
                     <div data-aos="fade-left">
-                      <Link href="#">
-                        <div className="w-full bg-gradient-to-r from-s-orange to-t-orange rounded-[30px] px-6 py-2 text-white font-poppins text-xl">
+                      <Link href="/desa-sobangan">
+                        <div className="w-full transition-all bg-gradient-to-r from-s-orange to-t-orange  hover:from-n-blue hover:to-t-blue rounded-[30px] px-6 py-2 text-white font-poppins text-xl">
                           Jelajahi Sekarang
                         </div>
                       </Link>
