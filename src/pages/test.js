@@ -30,7 +30,7 @@ const Test = () => {
         spaceBetween={50}
         navigation
         breakpoints={{
-          640: {
+          300: {
             slidesPerView: 1,
             spaceBetween: 20,
           },
