@@ -174,7 +174,7 @@ const Desa_Sobangan = () => {
                 data-aos="fade-up"
               >
                 <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
-                  <Link href="#">
+                  <Link href="/desa-sobangan/pemetaan-pertanian">
                     <div className="flex justify-center h-full mx-20 items-center">
                       <div className="block text-center" data-aos="fade-right">
                         <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -212,7 +212,7 @@ const Desa_Sobangan = () => {
                 data-aos="fade-up"
               >
                 <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
-                  <Link href="#">
+                  <Link href="/desa-sobangan/pemetaan-peternakan">
                     <div className="flex justify-center h-full mx-20 items-center">
                       <div className="block text-center" data-aos="fade-right">
                         <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -253,7 +253,7 @@ const Desa_Sobangan = () => {
           {/* content */}
           <div className="mt-10">
             <div className="relative flex items-center">
-              <div className="items-center">
+              <div className="items-center lg:pl-8 pl-3" data-aos="fade-right">
                 <IoChevronBack
                   className="p-2 w-12 h-12 rounded-full text-white border border-white hover:bg-w-yellow hover:text-n-blue cursor-pointer transition-all"
                   onClick={() => swiper.slidePrev()}
@@ -261,6 +261,7 @@ const Desa_Sobangan = () => {
               </div>
               <Swiper
                 className="w-full lg:w-[1382px]"
+                data-aos="fade-up"
                 onSwiper={(swiper) => setSwiper(swiper)}
                 slidesPerView={3}
                 spaceBetween={50}
@@ -290,9 +291,9 @@ const Desa_Sobangan = () => {
                 })}
                 {/* Add more SwiperSlides for additional cards */}
               </Swiper>
-              <div>
+              <div className="lg:pr-8 pr-3" data-aos="fade-left">
                 <IoChevronForward
-                  className="p-2 w-12 h-12 rounded-full text-n-blue border border-white hover:bg-w-yellow hover:text-n-blue cursor-pointer transition-all"
+                  className="p-2 w-12 h-12 rounded-full text-white border border-white hover:bg-w-yellow hover:text-n-blue cursor-pointer transition-all"
                   onClick={() => swiper.slideNext()}
                 />
               </div>
