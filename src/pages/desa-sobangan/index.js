@@ -253,7 +253,7 @@ const Desa_Sobangan = () => {
           {/* content */}
           <div className="mt-10">
             <div className="relative flex items-center">
-              <div className="items-center">
+              <div className="items-center lg:pl-8 pl-3" data-aos="fade-right">
                 <IoChevronBack
                   className="p-2 w-12 h-12 rounded-full text-white border border-white hover:bg-w-yellow hover:text-n-blue cursor-pointer transition-all"
                   onClick={() => swiper.slidePrev()}
@@ -261,6 +261,7 @@ const Desa_Sobangan = () => {
               </div>
               <Swiper
                 className="w-full lg:w-[1382px]"
+                data-aos="fade-up"
                 onSwiper={(swiper) => setSwiper(swiper)}
                 slidesPerView={3}
                 spaceBetween={50}
@@ -290,9 +291,9 @@ const Desa_Sobangan = () => {
                 })}
                 {/* Add more SwiperSlides for additional cards */}
               </Swiper>
-              <div>
+              <div className="lg:pr-8 pr-3" data-aos="fade-left">
                 <IoChevronForward
-                  className="p-2 w-12 h-12 rounded-full text-n-blue border border-white hover:bg-w-yellow hover:text-n-blue cursor-pointer transition-all"
+                  className="p-2 w-12 h-12 rounded-full text-white border border-white hover:bg-w-yellow hover:text-n-blue cursor-pointer transition-all"
                   onClick={() => swiper.slideNext()}
                 />
               </div>
