@@ -24,19 +24,19 @@ const Pemetaan_Pertanian = () => {
           </div>
         </div>
       </section>
-      <section className="flex w-full lg:h-screen h-fit  bg-gradient-to-b from-[#DF693B] to-[#F99A57]">
+      <section className="flex w-full  h-fit  bg-gradient-to-b from-[#DF693B] to-[#F99A57]">
         <div className="w-full h-full bg-pattern-1">
           <div className=" max-w-[1509px] h-fit bg-[#FAFAFA] mx-auto rounded-[30px] -translate-y-60">
             {/* Heading */}
             <div>
-                <h2 className="text-4xl font-poppins font-semibold text-n-blue pt-10 pl-12">
+                <h2 className="md:text-4xl text-3xl font-poppins font-semibold text-n-blue pt-10 pl-12 pr-8">
                     Pemetaan Komoditas Pertanian
                 </h2>
             </div>
             {/* peta section */}
-            <div className="flex items-center">
+            <div className="md:flex block items-center mx-8 py-8">
                 {/* peta image */}
-                <div className=" ml-8 opacity-100 hover:opacity-50">
+                <div className="  opacity-100 hover:opacity-50">
                     <a onClick={handleImageClick} className="cursor-pointer">
                     <Image
                     className="w-full h-full"
@@ -48,7 +48,7 @@ const Pemetaan_Pertanian = () => {
                     </a>
                 </div>
                 {/* download button */}
-                <div className="mx-auto">
+                <div className="flex justify-center mx-auto md:my-0 my-4">
                     <button className="transition-all bg-gradient-to-r from-s-orange to-t-orange  hover:from-n-blue hover:to-t-blue text-white rounded-[30px] px-16 py-2 font-poppins font-semibold text-lg">
                         Download Map
                     </button>
@@ -57,14 +57,14 @@ const Pemetaan_Pertanian = () => {
             
             {/* Heading */}
             <div>
-                <h2 className="text-4xl font-poppins font-semibold text-n-blue pt-10 pl-12">
+                <h2 className="md:text-4xl text-3xl font-poppins font-semibold text-n-blue pt-10 pl-12">
                     Pemetaan Hasil Pertanian
                 </h2>
             </div>
             {/* peta section */}
-            <div className="flex items-center">
+            <div className="md:flex block items-center mx-8 py-8">
                 {/* peta image */}
-                <div className=" ml-8 opacity-100 hover:opacity-50">
+                <div className="  opacity-100 hover:opacity-50">
                     <a onClick={handleImageClick} className="cursor-pointer">
                     <Image
                     className="w-full h-full"
@@ -76,7 +76,7 @@ const Pemetaan_Pertanian = () => {
                     </a>
                 </div>
                 {/* download button */}
-                <div className="mx-auto">
+                <div className="flex justify-center mx-auto md:my-0 my-4">
                     <button className="transition-all bg-gradient-to-r from-s-orange to-t-orange  hover:from-n-blue hover:to-t-blue text-white rounded-[30px] px-16 py-2 font-poppins font-semibold text-lg">
                         Download Map
                     </button>
