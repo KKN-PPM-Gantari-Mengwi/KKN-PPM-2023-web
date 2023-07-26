@@ -260,7 +260,7 @@ const Desa_Baha = () => {
           {/* content */}
           <div className="mt-10">
             <div className="relative flex items-center">
-              <div className="items-center">
+              <div className="items-center lg:pl-8 pl-3" data-aos="fade-right">
                 <IoChevronBack
                   className="p-2 w-12 h-12 rounded-full text-white border border-white hover:bg-w-yellow hover:text-n-blue cursor-pointer transition-all"
                   onClick={() => swiper.slidePrev()}
@@ -268,6 +268,7 @@ const Desa_Baha = () => {
               </div>
               <Swiper
                 className="w-full lg:w-[1382px]"
+                data-aos="fade-up"
                 onSwiper={(swiper) => setSwiper(swiper)}
                 slidesPerView={3}
                 spaceBetween={50}
@@ -289,7 +290,7 @@ const Desa_Baha = () => {
               >
                 {wisata.map((val, index) => {
                   return(
-                <SwiperSlide className="h-full w-[424px] pb-8 xl:pb-16 px-2" key={index}>
+                <SwiperSlide  className="h-full w-[424px] pb-8 xl:pb-16 px-2" key={index}>
                   {/* Card 1 */}
                   <SliderTourCard title={val.title} location={val.location} desc={val.desc} imageUrl={val.imageUrl} pageUrl={val.pageUrl}/>
                 </SwiperSlide>
@@ -297,9 +298,9 @@ const Desa_Baha = () => {
                 })}
                 {/* Add more SwiperSlides for additional cards */}
               </Swiper>
-              <div>
+              <div className="lg:pr-8 pr-3">
                 <IoChevronForward
-                  className="p-2 w-12 h-12 rounded-full text-n-blue border border-white hover:bg-w-yellow hover:text-n-blue cursor-pointer transition-all"
+                  className="p-2 w-12 h-12 rounded-full text-white border border-white hover:bg-w-yellow hover:text-n-blue cursor-pointer transition-all"
                   onClick={() => swiper.slideNext()}
                 />
               </div>
