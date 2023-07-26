@@ -31,6 +31,7 @@ module.exports = {
         'komoditas-1':"url('/images/background/komoditas-1.png')",
         'wisata-card-baha':"url('/images/background/wisata-card-baha.png')",
         'wisata-card-sobangan':"url('/images/background/wisata-card-sobangan.png')",
+        'pemetaan-pertanian':"url('/images/background/pemetaan-pertanian.svg')"
       }
     },
   },
