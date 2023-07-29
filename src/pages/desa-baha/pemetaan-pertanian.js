@@ -14,12 +14,12 @@ const Pemetaan_Pertanian = () => {
     <DefaultLayout title="Gantari Mengwi 2023">
       <section className="bg-pemetaan-pertanian w-full h-[735px]">
         <div className="wisataCover1 w-full h-full">
-          <div className="block z-0 pt-60 ">
-            <h1 data-aos="fade-right" className="flex justify-center items-center text-t-orange my-auto translate-y-6 md:text-8xl text-6xl font-Natural z-0 ">
+          <div className="block z-0 pt-60">
+            <h1 data-aos="fade-right" className="flex justify-center items-center text-t-orange my-auto translate-y-6 md:text-8xl text-6xl font-Natural z-0">
               Pemetaan Pertanian
             </h1>
-            <h1 data-aos="fade-left" className="flex justify-center items-center text-white my-auto md:text-8xl text-6xl font-Natural ">
-              Desa Sobangan
+            <h1 data-aos="fade-left" className="flex justify-center items-center text-white my-auto md:text-8xl text-6xl font-Natural">
+              Desa Baha
             </h1>
           </div>
         </div>

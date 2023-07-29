@@ -25,7 +25,7 @@ const Pemetaan_Peternakan = () => {
               data-aos="fade-left"
               className="flex justify-center items-center text-white my-auto md:text-8xl text-6xl font-Natural"
             >
-              Desa Sobangan
+              Desa Baha
             </h1>
           </div>
         </div>
