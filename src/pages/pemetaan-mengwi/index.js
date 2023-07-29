@@ -130,7 +130,7 @@ const Pemetaan_Mengwi = () => {
                 data-aos="fade-up"
               >
                 <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
-                  <Link href="#">
+                  <Link href="">
                   
                   <div className="flex justify-center h-full mx-20 items-center">
                     <div className="block text-center" data-aos="fade-right">
