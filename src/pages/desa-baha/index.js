@@ -116,7 +116,7 @@ const Desa_Baha = () => {
         <div className="block lg:flex justify-center">
           <div className="block w-full lg:w-[1553px] px-4">
             {/* card */}
-            <Link href="/desa-baha/pemetaan-wisata">
+            <Link href="/desa-baha/pemetaan/pemetaan-wisata">
               <div
                 className="w-full h-[192px] rounded-[30px] bg-wisata-card-sobangan bg-cover mt-8 "
                 data-aos="fade-up"
@@ -141,7 +141,7 @@ const Desa_Baha = () => {
                 data-aos="fade-up"
               >
                 <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
-                  <Link href="/desa-baha/pemetaan-mitigasi-bencana">
+                  <Link href="/desa-baha/pemetaan/pemetaan-mitigasi-bencana">
                     <div className="flex justify-center h-full mx-20 items-center">
                       <div className="block text-center" data-aos="fade-right">
                         <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -160,7 +160,7 @@ const Desa_Baha = () => {
                 data-aos="fade-up"
               >
                 <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
-                  <Link href="/desa-baha/pemetaan-umkm">
+                  <Link href="/desa-baha/pemetaan/pemetaan-umkm">
                     <div className="flex justify-center h-full mx-20 items-center">
                       <div className="block text-center" data-aos="fade-right">
                         <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -181,7 +181,7 @@ const Desa_Baha = () => {
                 data-aos="fade-up"
               >
                 <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
-                  <Link href="/desa-baha/pemetaan-pertanian">
+                  <Link href="/desa-baha/pemetaan/pemetaan-pertanian">
                     <div className="flex justify-center h-full mx-20 items-center">
                       <div className="block text-center" data-aos="fade-right">
                         <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -200,7 +200,7 @@ const Desa_Baha = () => {
                 data-aos="fade-up"
               >
                 <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
-                  <Link href="/desa-baha/pemetaan-perkebunan">
+                  <Link href="/desa-baha/pemetaan/pemetaan-perkebunan">
                     <div className="flex justify-center h-full mx-20 items-center">
                       <div className="block text-center" data-aos="fade-right">
                         <h2 className="text-5xl lg:text-6xl text-white font-Natural">
@@ -219,7 +219,7 @@ const Desa_Baha = () => {
                 data-aos="fade-up"
               >
                 <div className="bg-n-blue bg-opacity-[64%] rounded-[30px] transition-colors duration-300 hover:bg-black hover:bg-opacity-[64%] w-full h-full">
-                  <Link href="/desa-baha/pemetaan-peternakan">
+                  <Link href="/desa-baha/pemetaan/pemetaan-peternakan">
                     <div className="flex justify-center h-full mx-20 items-center">
                       <div className="block text-center" data-aos="fade-right">
                         <h2 className="text-5xl lg:text-6xl text-white font-Natural">
