@@ -1,25 +1,23 @@
 import React from "react";
-import DefaultLayout from "./../../components/DefaultLayout/DefaultLayout";
-import TourismCard from "./../../components/Card/TourismCard.jsx";
-import Dummy from "/public/images/assets/dummy-tour-1.png"
+import DefaultLayout from "../../../components/DefaultLayout/DefaultLayout.jsx";
 import Image from 'next/image'
 import DummyMap from "/public/images/assets/peta-dummy.svg"
 import Link from 'next/link'
 
-const Pemetaan_Mitigasi_Bencana = () => {
+const Pemetaan_Perkebunan = () => {
     const handleImageClick = () => {
         window.open('/images/assets/peta-dummy.svg', '_blank');
       };
   return (
     <DefaultLayout title="Gantari Mengwi 2023">
-      <section className="bg-mitigasi-bencana w-full h-[735px]">
+      <section className="bg-pemetaan-pertanian w-full h-[735px]">
         <div className="wisataCover1 w-full h-full">
           <div className="block z-0 pt-60 ">
             <h1 data-aos="fade-right" className="flex justify-center items-center text-t-orange my-auto translate-y-6 md:text-8xl text-6xl font-Natural z-0 ">
-              Pemetaan Mitigasi Bencana
+              Pemetaan Perkebunan
             </h1>
             <h1 data-aos="fade-left" className="flex justify-center items-center text-white my-auto md:text-8xl text-6xl font-Natural ">
-              Desa Baha
+              Desa Sobangan
             </h1>
           </div>
         </div>
@@ -30,7 +28,7 @@ const Pemetaan_Mitigasi_Bencana = () => {
             {/* Heading */}
             <div>
                 <h2 data-aos="fade-up" className="md:text-4xl text-3xl font-poppins font-semibold text-n-blue pt-10 pl-12 pr-8">
-                    Pemetaan Daerah Rawan Bencana
+                    Pemetaan Komoditas Perkebunan
                 </h2>
             </div>
             {/* peta section */}
@@ -58,7 +56,7 @@ const Pemetaan_Mitigasi_Bencana = () => {
             {/* Heading */}
             <div>
                 <h2 data-aos="fade-up" className="md:text-4xl text-3xl font-poppins font-semibold text-n-blue pt-10 pl-12">
-                    Mitigasi Bencana
+                    Pemetaan Hasil Perkebunan
                 </h2>
             </div>
             {/* peta section */}
@@ -90,4 +88,4 @@ const Pemetaan_Mitigasi_Bencana = () => {
   );
 };
 
-export default Pemetaan_Mitigasi_Bencana;
+export default Pemetaan_Perkebunan;

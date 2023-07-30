@@ -1,6 +1,6 @@
 import React from "react";
-import DefaultLayout from "./../../components/DefaultLayout/DefaultLayout";
-import TourismCard from "./../../components/Card/TourismCard.jsx";
+import DefaultLayout from "./../../../components/DefaultLayout/DefaultLayout";
+import TourismCard from "./../../../components/Card/TourismCard.jsx";
 import Dummy from "/public/images/assets/dummy-tour-1.png"
 import Image from 'next/image'
 import DummyMap from "/public/images/assets/peta-dummy.svg"
@@ -19,7 +19,7 @@ const Pemetaan_Perkebunan = () => {
               Pemetaan Perkebunan
             </h1>
             <h1 data-aos="fade-left" className="flex justify-center items-center text-white my-auto md:text-8xl text-6xl font-Natural ">
-              Desa Sobangan
+              Desa Baha
             </h1>
           </div>
         </div>
