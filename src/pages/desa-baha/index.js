@@ -12,14 +12,14 @@ const wisata = [
     location: "Desa Baha",
     desc: "Wisata pemandian di Desa Sobangan merupakan tempat pemandian dengan nuansa alam yang mengalirkan air dari mata air di Desa Sobangan",
     imageUrl: "/images/assets/pancoran-beji.png",
-    pageUrl: "#",
+    pageUrl: "/desa-baha/wisata/taman-manik-segara",
   },
   {
     title: "Wisata Subak Lepud",
     location: "Desa Baha",
     desc: "Wisata pemandian di Desa Sobangan merupakan tempat pemandian dengan nuansa alam yang mengalirkan air dari mata air di Desa Sobangan",
     imageUrl: "/images/assets/pancoran-beji.png",
-    pageUrl: "#",
+    pageUrl: "/desa-baha/wisata/subak-lepud",
   },
   {
     title: "Warung Umasana",

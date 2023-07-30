@@ -6,13 +6,19 @@ import Image from "next/image";
 import DummyMap from "/public/images/assets/peta-dummy.svg";
 import Link from "next/link";
 
-const fasilitas = ["Kamar mandi dan toilet", "Gazebo"];
-const galleryImg = ["/images/timeline/1.jpg", "/images/timeline/2.jpg", "/images/timeline/3.jpg", "/images/timeline/4.jpg", "/images/timeline/5.jpg", "/images/timeline/6.jpg"]
+const fasilitas = [];
+const galleryImg = [
+  "/images/timeline/1.jpg",
+  "/images/timeline/2.jpg",
+  "/images/timeline/3.jpg",
+  "/images/timeline/4.jpg",
+  "/images/timeline/5.jpg",
+  "/images/timeline/6.jpg",
+];
 const videoUrl = "https://www.youtube.com/embed/dQw4w9WgXcQ";
-const HTM = "Rp 10.000/orang"
+const HTM = "FREE";
 
-const Taman_Manik_Segara = () => {
-  
+const Subak_Lepud = () => {
   return (
     <DefaultLayout title="Gantari Mengwi 2023">
       <section className="bg-wisata-1 w-full h-[735px]">
@@ -28,7 +34,7 @@ const Taman_Manik_Segara = () => {
               data-aos="fade-left"
               className="flex justify-center items-center text-white my-auto md:text-8xl text-6xl font-Natural text-center"
             >
-              Taman Manik Segara
+              Subak Lepud
             </h1>
           </div>
         </div>
@@ -42,19 +48,17 @@ const Taman_Manik_Segara = () => {
                 data-aos="fade-up"
                 className="md:text-2xl text-xl font-poppins font-medium text-black pt-10 pl-12 pr-12 text-center"
               >
-                Teman Manik Segara biasanya menjadi tempat melukat bagi
-                masyarakat setempat. Melukat adalah ritual spiritual yang
-                dilakukan di Bali, Indonesia, untuk membersihkan diri fisik dan
-                spiritual dari energi negatif. Biasanya dilakukan dalam konteks
-                upacara agama Hindu sebelum ritual keagamaan atau bisa dilakukan
-                individu. Proses melukat dilakukan di tempat suci, menggunakan
-                air suci dari mata air sakral. Selama proses melukat, seseorang
-                menggunakan air suci untuk membasahi tubuh, berdoa, mengucapkan
-                mantra, dan menyucikan pikiran serta perasaan. Melukat penting
-                dalam kehidupan spiritual Bali untuk memulihkan keseimbangan dan
-                mendapatkan kesucian serta perlindungan dari Tuhan. Setelah
-                melukat, pengunjung mendapatkan gelang Tridatu sebagai buah
-                tangan untuk dibawa pulang.
+                Subak adalah sistem irigasi tradisional di Bali yang mengairi
+                sawah-sawah secara berkelompok. Melibatkan kolaborasi petani
+                dalam suatu desa, subak mengatur aliran air secara adil. Prinsip
+                &quot;Tri Hita Karana&quot; mencakup keberlanjutan lingkungan dan
+                kesejahteraan spiritual. Subak juga berperan dalam konservasi
+                sumber daya alam dan menjaga keanekaragaman hayati di Bali.
+                Subak Lupud merupakan Subak yang sangat cantik yang terletak di
+                Desa Baha dan telah dikunjungi oleh beberapa tokoh terkenal
+                seperti Presiden Gambia, Bupati Badung, dan Gubernur Bali.
+                Wisatawan bisa melihat pemandangan hamparan sawah yang sangat
+                luas di Subak Lepud.
               </p>
             </div>
             {/* fasilitas and HTM section */}
@@ -101,7 +105,10 @@ const Taman_Manik_Segara = () => {
               >
                 Video
               </h2>
-              <div className="aspect-[16/9] w-3/4 mt-8 mx-auto" data-aos="fade-up">
+              <div
+                className="aspect-[16/9] w-3/4 mt-8 mx-auto"
+                data-aos="fade-up"
+              >
                 <iframe
                   className="w-full h-full rounded-3xl bg-n-blue"
                   src={videoUrl}
@@ -121,9 +128,15 @@ const Taman_Manik_Segara = () => {
               </h2>
               <div className="w-4/5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 pt-8 mx-auto">
                 {galleryImg.map((item, index) => (
-                    <div key={index} className="" data-aos="fade-up">
-                        <Image alt="card gallery wisata image" src={item} className="rounded-[30px] hover:scale-105 shadow-xl " width={399} height={223}/>
-                    </div>
+                  <div key={index} className="" data-aos="fade-up">
+                    <Image
+                      alt="card gallery wisata image"
+                      src={item}
+                      className="rounded-[30px] hover:scale-105 shadow-xl "
+                      width={399}
+                      height={223}
+                    />
+                  </div>
                 ))}
               </div>
             </div>
@@ -134,4 +147,4 @@ const Taman_Manik_Segara = () => {
   );
 };
 
-export default Taman_Manik_Segara;
+export default Subak_Lepud;
