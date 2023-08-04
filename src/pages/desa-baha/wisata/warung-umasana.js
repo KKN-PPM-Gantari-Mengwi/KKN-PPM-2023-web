@@ -8,12 +8,12 @@ import Link from "next/link";
 
 const fasilitas = ["Toilet", "Wifi"];
 const galleryImg = [
-  "/images/timeline/1.jpg",
-  "/images/timeline/2.jpg",
-  "/images/timeline/3.jpg",
-  "/images/timeline/4.jpg",
-  "/images/timeline/5.jpg",
-  "/images/timeline/6.jpg",
+  "/images/wisata/warung-umasana/1.jpg",
+  "/images/wisata/warung-umasana/2.jpg",
+  "/images/wisata/warung-umasana/3.jpg",
+  "/images/wisata/warung-umasana/4.jpg",
+  "/images/wisata/warung-umasana/5.jpg",
+  "/images/wisata/warung-umasana/6.jpg",
 ];
 const videoUrl = "https://www.youtube.com/embed/dQw4w9WgXcQ";
 const HTM = "Sesuai makanan dan minuman yang dipesan";
@@ -21,7 +21,7 @@ const HTM = "Sesuai makanan dan minuman yang dipesan";
 const Warung_Umasana = () => {
   return (
     <DefaultLayout title="Gantari Mengwi 2023">
-      <section className="bg-wisata-1 w-full h-[735px]">
+      <section className="bg-warung-umasana w-full h-[735px]">
         <div className="wisataCover1 w-full h-full">
           <div className="block z-0 pt-60 ">
             <h1

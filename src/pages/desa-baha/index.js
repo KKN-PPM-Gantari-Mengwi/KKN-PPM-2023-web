@@ -25,7 +25,7 @@ const wisata = [
     title: "Warung Umasana",
     location: "Desa Baha",
     desc: "Wisata pemandian di Desa Sobangan merupakan tempat pemandian dengan nuansa alam yang mengalirkan air dari mata air di Desa Sobangan",
-    imageUrl: "/images/assets/pancoran-beji.png",
+    imageUrl: "/images/wisata/warung-umasana/main.jpg",
     pageUrl: "/desa-baha/wisata/warung-umasana",
   },
   {
