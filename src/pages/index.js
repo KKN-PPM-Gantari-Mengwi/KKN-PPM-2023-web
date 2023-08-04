@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import HomeCard from "./../components/Card/HomeCard.jsx";
 
-import DesaBahaImage from "./../../public/images/assets/desa-baha-1.png";
+import DesaBahaImage from "./../../public/images/assets/desa-baha-revamp.png";
 import DesaSobanganImage from "./../../public/images/assets/desa-sobangan-1.png";
 export default function Home() {
   return (
