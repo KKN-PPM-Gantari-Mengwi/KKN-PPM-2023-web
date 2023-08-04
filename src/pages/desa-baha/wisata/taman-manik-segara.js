@@ -7,7 +7,7 @@ import DummyMap from "/public/images/assets/peta-dummy.svg";
 import Link from "next/link";
 
 const fasilitas = ["Kamar mandi dan toilet", "Gazebo"];
-const galleryImg = ["/images/timeline/1.jpg", "/images/timeline/2.jpg", "/images/timeline/3.jpg", "/images/timeline/4.jpg", "/images/timeline/5.jpg", "/images/timeline/6.jpg"]
+const galleryImg = ["/images/wisata/taman-manik-segara/1.jpg", "/images/wisata/taman-manik-segara/2.jpg", "/images/wisata/taman-manik-segara/3.jpg", "/images/wisata/taman-manik-segara/4.jpg", "/images/wisata/taman-manik-segara/5.jpg", "/images/wisata/taman-manik-segara/6.jpg"]
 const videoUrl = "https://www.youtube.com/embed/dQw4w9WgXcQ";
 const HTM = "Rp 10.000/orang"
 
@@ -15,7 +15,7 @@ const Taman_Manik_Segara = () => {
   
   return (
     <DefaultLayout title="Gantari Mengwi 2023">
-      <section className="bg-wisata-1 w-full h-[735px]">
+      <section className="bg-taman-manik-segara w-full h-[735px]">
         <div className="wisataCover1 w-full h-full">
           <div className="block z-0 pt-60 ">
             <h1

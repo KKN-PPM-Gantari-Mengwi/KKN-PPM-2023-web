@@ -33,7 +33,8 @@ module.exports = {
         'wisata-card-sobangan':"url('/images/background/wisata-card-sobangan.png')",
         'pemetaan-pertanian':"url('/images/background/pemetaan-pertanian.svg')",
         'pemetaan-peternakan':"url('/images/background/pemetaan-peternakan.svg')",
-        'mitigasi-bencana':"url('/images/background/mitigasi-bencana.png')"
+        'mitigasi-bencana':"url('/images/background/mitigasi-bencana.png')",
+        'taman-manik-segara' : "url('/images/wisata/taman-manik-segara/bg-revamp.jpg')"
       }
     },
   },

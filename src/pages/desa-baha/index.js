@@ -11,7 +11,7 @@ const wisata = [
     title: "Wisata Taman Manik Segara",
     location: "Desa Baha",
     desc: "Wisata pemandian di Desa Sobangan merupakan tempat pemandian dengan nuansa alam yang mengalirkan air dari mata air di Desa Sobangan",
-    imageUrl: "/images/assets/pancoran-beji.png",
+    imageUrl: "/images/wisata/taman-manik-segara/main.jpg",
     pageUrl: "/desa-baha/wisata/taman-manik-segara",
   },
   {
@@ -39,7 +39,7 @@ const wisata = [
     title: "Wisata Agrowisata Lebah",
     location: "Desa Baha",
     desc: "Wisata pemandian di Desa Sobangan merupakan tempat pemandian dengan nuansa alam yang mengalirkan air dari mata air di Desa Sobangan",
-    imageUrl: "/images/assets/pancoran-beji.png",
+    imageUrl: "/images/wisata/taman-manik-segara/main.jpg",
     pageUrl: "/desa-baha/wisata/agrowisata-lebah",
   },
 ];
