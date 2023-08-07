@@ -14,25 +14,40 @@ import "swiper/css/pagination";
 
 const wisata = [
   {
-    title: "Kebun Bunga",
-    location: "Desa Sobangan",
-    eventName: "Early Bird Registration",
+    title: "Taman Manik Segara",
+    location: "Desa Baha",
     imgSrc: "/images/timeline/1.jpg",
-    link: "",
+    link: "/desa-baha/wisata/taman-manik-segara",
   },
   {
     title: "Pancoran Solas",
     location: "Desa Sobangan",
-    eventName: "Regular Registration",
     imgSrc: "/images/timeline/2.jpg",
     link: "",
   },
   {
-    title: "Subak Lemut",
+    title: "Subak Lepud",
     location: "Desa Baha",
-    eventName: "Online Preliminary",
     imgSrc: "/images/timeline/3.jpg",
-    link: "",
+    link: "/desa-baha/wisata/subak-lebud",
+  },
+  {
+    title: "Warung Umasana",
+    location: "Desa Baha",
+    imgSrc: "/images/timeline/3.jpg",
+    link: "/desa-baha/wisata/warung-umasana",
+  },
+  {
+    title: "Jogging Track",
+    location: "Desa Baha",
+    imgSrc: "/images/timeline/3.jpg",
+    link: "/desa-baha/wisata/jogging-track",
+  },
+  {
+    title: "Agrowisata Lebah",
+    location: "Desa Baha",
+    imgSrc: "/images/timeline/3.jpg",
+    link: "/desa-baha/wisata/agrowisata-lebah",
   },
 ];
 
@@ -147,8 +162,8 @@ function Wisata_Mengwi() {
                 onSwiper={(swiper) => setSwiper(swiper)}
                 breakpoints={{
                   100: {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
+                    slidesPerView: 1,
+                    spaceBetween: 0,
                   },
                   1024: {
                     slidesPerView: 3,
@@ -159,14 +174,14 @@ function Wisata_Mengwi() {
                 {wisata.map((val, index) => {
                   return (
                     <SwiperSlide className="h-full w-full mx-16" key={index}>
-                      <div className="h-[45vh] lg:h-[50vh] w-[40vw] lg:w-[22vw] p-4 pt-8 flex flex-col gap-2 rounded-2xl break-words bg-gradient-to-b from-s-orange to-t-orange">
-                        <h2 className="text-4xl font-poppins font-semibold leading-1 text-w-yellow text-shadow mx-auto">
+                      <div className="h-[45vh] lg:h-[50vh] w-[40vw] lg:w-[22vw] p-4 pt-8 flex flex-col gap-2 rounded-2xl break-words bg-gradient-to-b from-s-orange to-t-orange text-center">
+                        <h2 className="md:text-4xl text-3xl font-poppins font-semibold leading-1 text-w-yellow text-shadow mx-auto">
                           {val.title}
                         </h2>
-                        <p className="text-3xl font-poppins font-semibold leading-1 text-white text-shadow mx-auto">
+                        <p className="md:text-3xl text-2xl font-poppins font-semibold leading-1 text-white text-shadow mx-auto">
                           {val.location}
                         </p>
-                        <Link href="#" className="mx-auto mt-14 mb-2">
+                        <Link href={val.link} className="mx-auto mt-14 mb-2">
                           <div className="w-full bg-gradient-to-r from-n-blue to-t-blue rounded-2xl text-white font-poppins font-semibold py-1 px-8">
                             Jelajahi Sekarang
                           </div>
