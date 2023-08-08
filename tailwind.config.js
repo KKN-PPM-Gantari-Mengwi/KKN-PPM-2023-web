@@ -18,7 +18,7 @@ module.exports = {
         'h-pink': '#CB5260',
       },
       backgroundImage: {
-        'home-1':"url('/images/background/home1.png')",
+        'home-1':"url('/images/background/home-1.jpg')",
         'home-2':"url('/images/background/home2.png')",
         'about-1':"url('/images/background/about1.png')",
         'pattern-1':"url('/images/background/pattern-top-footer.png')",
@@ -27,7 +27,7 @@ module.exports = {
         'home-card-baha':"url('/images/assets/desa-baha-1.png')",
         'wisata-1':"url('/images/background/bg-wisata-1-fix.png')",
         'umkm-1':"url('/images/background/umkm1.png')",
-        'sobangan-1':"url('/images/background/sobangan.png')",
+        'sobangan-1':"url('/images/background/desa-sobangan-2.jpg')",
         'komoditas-1':"url('/images/background/komoditas-1.png')",
         'wisata-card-baha':"url('/images/background/wisata-card-baha.png')",
         'wisata-card-sobangan':"url('/images/background/wisata-card-sobangan.png')",
