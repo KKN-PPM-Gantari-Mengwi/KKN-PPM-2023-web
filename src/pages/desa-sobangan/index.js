@@ -8,32 +8,39 @@ import SliderTourCard from "../../components/Card/SliderTourCard.jsx";
 
 const wisata = [
   {
-    title: "Wisata Pemandian",
+    title: "UPT. Sapi Bali Sobangan",
     location: "Desa Sobangan",
     desc: "Wisata pemandian di Desa Sobangan merupakan tempat pemandian dengan nuansa alam yang mengalirkan air dari mata air di Desa Sobangan",
     imageUrl: "/images/assets/pancoran-beji.png",
-    pageUrl: "#"
+    pageUrl: "/desa-sobangan/wisata/upt-sapi-bali-sobangan"
   },
   {
-    title: "Wisata Pancoran Solas",
+    title: "Tugu Pahlawan Tjok Agung Tresna",
     location: "Desa Sobangan",
     desc: "Wisata pemandian di Desa Sobangan merupakan tempat pemandian dengan nuansa alam yang mengalirkan air dari mata air di Desa Sobangan",
     imageUrl: "/images/assets/pancoran-beji.png",
-    pageUrl: "#"
+    pageUrl: "/desa-sobangan/wisata/tugu-pahlawan-tjok-agung-tresna"
   },
   {
-    title: "Wisata Sentra Sapi",
+    title: "Jogging Area Carik Sobangan",
     location: "Desa Sobangan",
     desc: "Wisata pemandian di Desa Sobangan merupakan tempat pemandian dengan nuansa alam yang mengalirkan air dari mata air di Desa Sobangan",
     imageUrl: "/images/assets/pancoran-beji.png",
-    pageUrl: "#"
+    pageUrl: "/desa-sobangan/wisata/jogging-area-carik-sobangan"
   },
   {
-    title: "Wisata Jogging Track",
+    title: "Jogging Track Banjar Tegalnarungan",
     location: "Desa Sobangan",
     desc: "Wisata pemandian di Desa Sobangan merupakan tempat pemandian dengan nuansa alam yang mengalirkan air dari mata air di Desa Sobangan",
     imageUrl: "/images/assets/pancoran-beji.png",
-    pageUrl: "#"
+    pageUrl: "/desa-sobangan/wisata/jogging-track-banjar-tegalnarungan"
+  },
+  {
+    title: "Wisata Religi : Pura Puseh Gunung Agung Dan Pancoran Solas",
+    location: "Desa Sobangan",
+    desc: "Wisata pemandian di Desa Sobangan merupakan tempat pemandian dengan nuansa alam yang mengalirkan air dari mata air di Desa Sobangan",
+    imageUrl: "/images/assets/pancoran-beji.png",
+    pageUrl: "/desa-sobangan/wisata/pura-puseh-gunung-agung-dan-pancoran-solas"
   },
 ]
 
