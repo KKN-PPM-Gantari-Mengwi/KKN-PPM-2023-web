@@ -36,6 +36,7 @@ module.exports = {
         'mitigasi-bencana':"url('/images/background/mitigasi-bencana.png')",
         'taman-manik-segara' : "url('/images/wisata/taman-manik-segara/bg-revamp.jpg')",
         'warung-umasana' : "url('/images/wisata/warung-umasana/bg-revamp.jpg')",
+        "edukasi-rabies" : "url('/images/background/edukasi-rabies.png')"
       }
     },
   },

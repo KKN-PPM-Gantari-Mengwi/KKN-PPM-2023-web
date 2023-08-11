@@ -9,7 +9,7 @@ const HomeCard = (props) => {
       data-aos={props.anime}
     >
       {/* image card */}
-      <div className="homeCardCover max-w-[519px] md:h-[372px] h-[250px] mx-auto block">
+      <div className="homeCardCover max-w-[519px] md:h-[372px] h-[250px] mx-auto block ">
         <Image
           // src="/images/assets/desa-baha-1.png"
           src={props.image}
@@ -17,7 +17,7 @@ const HomeCard = (props) => {
           height={372}
           layout={"responsive"}
           alt="desa-baha"
-          className="2xl:px-0 xl:px-4 2xl:mt-6 xl:mt-4"
+          className="2xl:px-0 xl:px-4 2xl:mt-6 xl:mt-4 rounded-[30px]"
         />
       </div>
       <div className="md:mt-4 mt-1">
