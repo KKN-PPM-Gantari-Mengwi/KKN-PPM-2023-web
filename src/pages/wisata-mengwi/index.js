@@ -16,37 +16,37 @@ const wisata = [
   {
     title: "Taman Manik Segara",
     location: "Desa Baha",
-    imgSrc: "/images/timeline/1.jpg",
+    imgSrc: "/images/wisata/taman-manik-segara/2.jpg",
     link: "/desa-baha/wisata/taman-manik-segara",
   },
   {
     title: "Pancoran Solas",
     location: "Desa Sobangan",
-    imgSrc: "/images/timeline/2.jpg",
+    imgSrc: "/images/wisata/taman-manik-segara/2.jpg",
     link: "",
   },
   {
     title: "Subak Lepud",
     location: "Desa Baha",
-    imgSrc: "/images/timeline/3.jpg",
+    imgSrc: "/images/wisata/taman-manik-segara/2.jpg",
     link: "/desa-baha/wisata/subak-lebud",
   },
   {
     title: "Warung Umasana",
     location: "Desa Baha",
-    imgSrc: "/images/timeline/3.jpg",
+    imgSrc: "/images/wisata/warung-umasana/2.jpg",
     link: "/desa-baha/wisata/warung-umasana",
   },
   {
     title: "Jogging Track",
     location: "Desa Baha",
-    imgSrc: "/images/timeline/3.jpg",
+    imgSrc: "/images/wisata/taman-manik-segara/2.jpg",
     link: "/desa-baha/wisata/jogging-track",
   },
   {
     title: "Agrowisata Lebah",
     location: "Desa Baha",
-    imgSrc: "/images/timeline/3.jpg",
+    imgSrc: "/images/wisata/taman-manik-segara/2.jpg",
     link: "/desa-baha/wisata/agrowisata-lebah",
   },
 ];
@@ -174,14 +174,14 @@ function Wisata_Mengwi() {
                 {wisata.map((val, index) => {
                   return (
                     <SwiperSlide className="h-full w-full mx-16" key={index}>
-                      <div className="h-[45vh] lg:h-[50vh] w-[40vw] lg:w-[22vw] p-4 pt-8 flex flex-col gap-2 rounded-2xl break-words bg-gradient-to-b from-s-orange to-t-orange text-center">
+                      <div className="h-fit w-[40vw] lg:w-[22vw] p-4 pt-8 flex flex-col gap-2 rounded-2xl break-words bg-gradient-to-b from-s-orange to-t-orange text-center">
                         <h2 className="md:text-4xl text-3xl font-poppins font-semibold leading-1 text-w-yellow text-shadow mx-auto">
                           {val.title}
                         </h2>
                         <p className="md:text-3xl text-2xl font-poppins font-semibold leading-1 text-white text-shadow mx-auto">
                           {val.location}
                         </p>
-                        <Link href={val.link} className="mx-auto mt-14 mb-2">
+                        <Link href={val.link} className="mx-auto mt-6 mb-2">
                           <div className="w-full bg-gradient-to-r from-n-blue to-t-blue rounded-2xl text-white font-poppins font-semibold py-1 px-8">
                             Jelajahi Sekarang
                           </div>
@@ -191,8 +191,10 @@ function Wisata_Mengwi() {
                             className="rounded-lg"
                             src={val.imgSrc ?? "/images/bg/placeholder.png"}
                             alt="image preview"
-                            layout="fill"
-                            objectFit="cover"
+                            width={455}
+                            height={377}
+                            // layout="fill"
+                            // objectFit="cover"
                           />
                         </div>
                         {/* <button className="p-2 rounded-full border-2 font-medium text-c-yellow border-c-yellow bg-transparent hover:!bg-c-yellow hover:text-green-light cursor-pointer transition-all">
